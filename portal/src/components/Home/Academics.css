@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .acdcontainer {
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+  }
+
+  .h1 {
+    text-align: center;
+    color: #213da0;
+    padding: 10px 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .ac {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 45%;
+    padding: 20px;
+    text-align: justify;
+    height: 40%;
+  }
+
+  .acdcard-container {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .acdcard {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    padding: 20px;
+    height: 30vh;
+    margin-bottom: 40px;
+  }
+
+  .acdcard h2, .card h3 {
+    font-size: 20px;
+  }
+
+  .acdcard h3 {
+    margin-top: 10px;
+  }
+
+  .acdcard ul {
+    margin-top: 10px;
+  }
+
+  .acdcard ul li {
+    list-style: none;
+  }
+
+  .acdcard ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .acdcard ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .right p {
+    text-align: justify;
+    line-height: 1.6;
+  }
+ 
+  .left-content a{
+    color: #000;
+  }

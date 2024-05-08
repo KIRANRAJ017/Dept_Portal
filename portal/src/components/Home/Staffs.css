@@ -1,0 +1,41 @@
+#Staffs
+  {
+    height: 80%;
+  }
+
+  .staffcontainer {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .staffcard {
+    width: 20vw;
+    height: 55vh;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .staffcard img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    height: 20vh;
+  }
+
+  .staffcard-content {
+    padding-left: 20px;
+    text-align: center;
+    margin-left: -20px;
+  }
+  .staff-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -5px;
+  }

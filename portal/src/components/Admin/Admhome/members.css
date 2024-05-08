@@ -1,0 +1,18 @@
+.members{
+    height: 88vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 5vh;
+}
+.faculty_mem{
+   
+    height: 10vh;
+}
+.addfac{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content:space-between;
+}
+.notdisplay{
+    display: none;
+}

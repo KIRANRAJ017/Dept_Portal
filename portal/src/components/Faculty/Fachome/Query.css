@@ -1,0 +1,11 @@
+.quries{
+    width: 80vw;
+    margin-top: 5vh;
+    text-align: left;
+    padding: 10px;
+}
+.query{
+    display:grid;
+    grid-template-columns: repeat(1,auto);
+    justify-content: center;
+}

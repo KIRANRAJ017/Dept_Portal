@@ -1,0 +1,19 @@
+.report{
+    padding-left: 10vw;
+    padding-top: 5vh;
+    width: 80vw;
+}
+.sel{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: left;
+    gap: 10vw;
+    padding-top: 5px;
+}
+.indate{
+    width: 20vw;
+    height: 40px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,56 @@
+.image-part,
+        .image-part1 {
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 5px;
+            position: relative;
+        }
+
+        .image-part img,
+        .image-part1 img {
+            width: calc(50% - 5px); /* Adjusted width to accommodate space between images */
+            height: auto;
+            margin: 0 5px; /* Added margin to create space between images */
+            transition: filter 0.3s ease; /* Added transition for smooth effect */
+        }
+
+        .image-part img:hover,
+        .image-part1 img:hover {
+            filter: blur(3px); /* Apply blur on hover */
+        }
+
+        .image-part1 img {
+            width: calc(33.33% - 5px); /* Adjusted width to accommodate space between images */
+            height: auto;
+            margin: 0 5px; /* Added margin to create space between images */
+            transition: filter 0.3s ease; /* Added transition for smooth effect */
+        }
+
+        .image-part1 img:hover {
+            filter: blur(3px); /* Apply blur on hover */
+        }
+
+        .text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 18px;
+            opacity: 0;
+            transition: opacity 0.3s ease; /* Added transition for smooth effect */
+        }
+
+        /* Corrected CSS selectors to show text individually for each image */
+        .image-part img:nth-of-type(1):hover + .text:nth-of-type(1),
+        .image-part img:nth-of-type(2):hover + .text:nth-of-type(2),
+        .image-part1 img:nth-of-type(1):hover + .text:nth-of-type(3),
+        .image-part1 img:nth-of-type(2):hover + .text:nth-of-type(4),
+        .image-part1 img:nth-of-type(3):hover + .text:nth-of-type(5) {
+            opacity: 1; /* Show text on hover */
+        }

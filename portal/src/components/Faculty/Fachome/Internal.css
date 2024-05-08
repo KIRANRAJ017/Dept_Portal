@@ -1,0 +1,29 @@
+.selsubj{
+    height: 40px;
+    width: 15vw;
+    border: none;
+    background:none;
+    font-size: 18px;
+}
+.selsubj:focus{
+    outline: none;
+}
+
+.inter{
+    margin-top: 5vh;
+    text-align: center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+.App{
+    text-align: center;
+}
+.table{
+    border: 1px solid black;
+    margin-top: 5vh;
+    width: 100%;
+    
+}
+.val{
+    border: 1px solid black;
+}

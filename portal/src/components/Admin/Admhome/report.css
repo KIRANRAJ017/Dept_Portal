@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.repcontainer {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button1 {
+    padding: 10px 20px;
+    background-color: #213da0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #0056b3;
+}
+
+.entire{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: center;
+    gap: 100px;
+    border: 1px solid #ccc;
+    width: 80vw;
+    padding: 20px;
+    border-radius: 5px;
+}
+.entiref{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    justify-content: center;
+}
